@@ -80,10 +80,11 @@ Join us as we explore and build machine learning models to make smarter decision
 │   ├── 02. feature-engineering-&-feature-selection.ipynb
 │   ├── 03. gradient-boosting-model.ipynb
 │   ├── 04. lightgbm-model.ipynb
-│   ├── 05. catboost-model.ipynb
-│   ├── 06. xgboost-model.ipynb
+│   ├── 05. xgboost-model.ipynb
+│   ├── 06. catboost-model.ipynb
 │   ├── 07. final-model-comparison-and-summary.ipynb
 └── README.md
+```
 
 ---
 
