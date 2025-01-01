@@ -83,39 +83,48 @@ Join us as we explore and build machine learning models to make smarter decision
 │   ├── 05. xgboost-model.ipynb
 │   ├── 06. catboost-model.ipynb
 │   ├── 07. final-model-comparison-and-summary.ipynb
-└── README.md
+├── requirements.txt
+└── requirements_pypi.txt
 ```
-
 ---
 
 ## How to run the project locally
 
-```bash
-# Install conda environment management system
-# (If you don't have it - on WNE UW computers it is already installed):  
-# https://conda.io/projects/conda/en/latest/user-guide/install/index.html
+1. Install conda environment management system: [https://conda.io/projects/conda/en/latest/user-guide/install/index.html](https://conda.io/projects/conda/en/latest/user-guide/install/index.html)
 
-# Create conda environment using provided requirements.txt file
-# Navigate in Anaconda Prompt into the project directory
-cd /Users/michalwozniak/ML-in-Finance-I-case-study-forecasting-tax-avoidance-rates
+2. Create conda environment using provided requirements.txt file (paste the following commands in Anaconda Prompt or Terminal):
 
-# Append channels
-conda config --append channels conda-forge
+   2.0 Navigate in Anaconda Prompt (Windows) or Terminal (macOS/Linux) into the project directory, for instance:  
 
-# Create environment
-conda create --name case_study_env --file requirements.txt
+   **On Windows:**  
+   ```bash
+   cd C:\Users\YourUsername\Documents\MyProject
+   ```
+   **On macOS:**
+   ```bash
+   cd /Users/YourUsername/Documents/MyProject
+   ```
+   **On Linux:**
+   ```bash
+   cd /home/YourUsername/MyProject
+   ```
+   Then run the following commands:
+   
+   2.1. `conda config --append channels conda-forge`
 
-# Activate environment
-conda activate case_study_env
+   2.2. `conda create --name case_study_env --file requirements.txt`
 
-# Install additional requirements
-pip install -r requirements_pypi.txt
+   2.3. `conda activate case_study_env`
 
-# Run the project (using your case_study_env) in your favorite IDE
-# Activate environment
-conda activate case_study_env
+   2.4. `pip install -r requirements_pypi.txt`
 
-# Start Jupyter Notebook
-jupyter notebook
+  Run the project (using your xxxx_env) in your favorite IDE which supports notebooks for instance in Jupyter Notebook, for instance run in Anaconda Prompt:
 
-# Voilà!
+  3.1 `conda activate xxxx_env`
+
+  3.2 `jupyter notebook`
+
+  # How to run the project remotely
+
+  1. Copy url of this Github project and change the domain from 'github.com' to 'github.dev'
+
