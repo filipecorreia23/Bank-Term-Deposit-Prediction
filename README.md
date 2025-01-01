@@ -86,36 +86,34 @@ Join us as we explore and build machine learning models to make smarter decision
 
 ---
 
-# How to run the project locally
+## How to run the project locally
 
-# Step 1: Install Conda environment management system
-# If you don't have it installed, follow the instructions here:
+```bash
+# Install conda environment management system
+# (If you don't have it - on WNE UW computers it is already installed):  
 # https://conda.io/projects/conda/en/latest/user-guide/install/index.html
 
-# Step 2: Navigate to the project directory
-cd /path/to/your/project/directory  # Replace this with your project directory
+# Create conda environment using provided requirements.txt file
+# Navigate in Anaconda Prompt into the project directory
+cd /Users/michalwozniak/ML-in-Finance-I-case-study-forecasting-tax-avoidance-rates
 
-# Step 2.1: Add conda-forge channel
+# Append channels
 conda config --append channels conda-forge
 
-# Step 2.2: Create the conda environment using the provided requirements.txt
+# Create environment
 conda create --name case_study_env --file requirements.txt
 
-# Step 2.3: Activate the conda environment
+# Activate environment
 conda activate case_study_env
 
-# Step 2.4: Install additional Python packages
+# Install additional requirements
 pip install -r requirements_pypi.txt
 
-# Step 3: Run the project in your favorite IDE or Jupyter Notebook
-# Activate the environment
+# Run the project (using your case_study_env) in your favorite IDE
+# Activate environment
 conda activate case_study_env
 
-# Launch Jupyter Notebook
+# Start Jupyter Notebook
 jupyter notebook
 
-# You are ready to explore the project.
-
-# How to run the project remotely
-# Copy the URL of this GitHub project and replace 'github.com' with 'github.dev'
-# Example: https://github.com/username/repository → https://github.dev/username/repository
+# Voilà!
