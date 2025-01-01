@@ -50,7 +50,7 @@ The dataset includes 45,211 instances and 16 features, divided into three catego
 ### Target Variable
 - **y**: Indicates whether the client subscribed to a term deposit ("yes" or "no").
 
-## Key Challenges
+## Main Challenges
 
 1. **Class Imbalance**: Most clients say "no," making this a challenging classification problem.
 2. **Complex Feature Interactions**: Numerical and categorical features interact in non-linear ways, requiring robust algorithms.
