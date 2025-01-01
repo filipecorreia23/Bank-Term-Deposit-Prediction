@@ -11,14 +11,14 @@ This project predicts whether a client will subscribe to a term deposit ("yes" o
 The goal of this project is to develop machine learning models to predict whether a client will subscribe to a term deposit. By identifying likely subscribers, banks can:
 
 - **Save resources** by targeting the right clients.
-- **Increase efficiency** in their marketing efforts.
-- **Personalize campaigns** for better client experiences.
+- **Increased efficiency** in their marketing efforts.
+- **Personalized campaigns** for better client experiences.
 
 We will use the following machine learning models:
-- **LightGBM**: Efficient for large datasets, handles categorical features well.
-- **CatBoost**: Natively supports categorical features and reduces preprocessing efforts.
-- **XGBoost**: A high-performance, scalable gradient boosting framework.
-- **Gradient Boosting (Baseline)**: A standard approach for comparison.
+- **LightGBM**: efficient for large datasets, handles categorical features well.
+- **CatBoost**: natively supports categorical features and reduces preprocessing efforts.
+- **XGBoost**: a high-performance, scalable gradient boosting framework.
+- **Gradient Boosting (Baseline)**: a standard approach for comparison.
 
 ## Dataset Overview
 
@@ -52,15 +52,15 @@ The dataset includes 45,211 instances and 16 features, divided into three catego
 
 ## Main Challenges
 
-1. **Class Imbalance**: Most clients say "no," making this a challenging classification problem.
-2. **Complex Feature Interactions**: Numerical and categorical features interact in non-linear ways, requiring robust algorithms.
-3. **Strong Predictive Features**: Features like duration can dominate predictions and introduce bias.
+1. **Class Imbalance**: most clients say "no," making this a challenging classification problem.
+2. **Complex Feature Interactions**: numerical and categorical features interact in non-linear ways, requiring robust algorithms.
+3. **Strong Predictive Features**: features like duration can dominate predictions and introduce bias.
 
 ## Why It Matters
 
-- **Better Marketing**: Improve targeting accuracy and reduce wasted efforts.
-- **Client Insights**: Understand factors influencing client behavior.
-- **Cross-Industry Impact**: Methods and insights can apply to other fields like e-commerce and telecom.
+- **Better Marketing**: improves targeting accuracy and reduces wasted efforts.
+- **Customer Insights**: understand factors influencing client behavior.
+- **Multi-Industry Impact**: methods and insights can apply to other fields like e-commerce and telecom.
 
 ## Let's Find the "Yes" That Matters
 
@@ -78,9 +78,9 @@ Join us as we explore and build machine learning models to make smarter decision
 ├── notebooks
 │   ├── 01. project-description-&-data-preparation-&-EDA.ipynb
 │   ├── 02. feature-engineering-&-feature-selection.ipynb
-│   ├── 03. gradient-boosting-model.ipynb
-│   ├── 04. lightgbm-model.ipynb
-│   ├── 05. xgboost-model.ipynb
+│   ├── 03. baseline-GBM.ipynb
+│   ├── 04. xgboost-model.ipynb
+│   ├── 05. lightgbm-model.ipynb
 │   ├── 06. catboost-model.ipynb
 │   ├── 07. final-model-comparison-and-summary.ipynb
 ├── requirements.txt
