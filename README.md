@@ -65,3 +65,7 @@ The dataset includes 45,211 instances and 16 features, divided into three catego
 ## Let's Find the "Yes" That Matters
 
 Join us as we explore and build machine learning models to make smarter decisions, optimize campaigns, and drive impactful results.
+
+## Project Structure
+
+├── README.md ├── data │ ├── input │ ├── models_output │ └── output ├── models ├── notebooks │ ├── 01. project-description-&-data-preparation-&-EDA.ipynb │ ├── 02. feature-engineering-&-feature-selection.ipynb │ ├── 03. naive-model.ipynb │ ├── 04. lightgbm-model.ipynb │ ├── 05. catboost-model.ipynb │ ├── 06. xgboost-model.ipynb │ ├── 07. final-model-comparison-and-summary.ipynb │ └── 08. random-forest-baseline-model.ipynb ├── requirements.txt └── requirements_pypi.txt
