@@ -68,6 +68,7 @@ Join us as we explore and build machine learning models to make smarter decision
 
 ## Project Structure
 
+```bash
 ├── README.md
 ├── data
 │   ├── input
