@@ -11,7 +11,7 @@ This project predicts whether a client will subscribe to a term deposit ("yes" o
 The goal of this project is to develop machine learning models to predict whether a client will subscribe to a term deposit. By identifying likely subscribers, banks can:
 
 - **Save resources** by targeting the right clients.
-- **Boost efficiency** in their marketing efforts.
+- **Increase efficiency** in their marketing efforts.
 - **Personalize campaigns** for better client experiences.
 
 We will use the following machine learning models:
