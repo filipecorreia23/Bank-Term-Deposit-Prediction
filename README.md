@@ -86,18 +86,36 @@ Join us as we explore and build machine learning models to make smarter decision
 
 ---
 
-## How to Run the Project Locally
+# How to run the project locally
 
-1. **Install Conda Environment Management System**  
-   If you don’t already have Conda installed, you can follow the instructions here:  
-   [Install Conda](https://conda.io/projects/conda/en/latest/user-guide/install/index.html)
+# Step 1: Install Conda environment management system
+# If you don't have it installed, follow the instructions here:
+# https://conda.io/projects/conda/en/latest/user-guide/install/index.html
 
-2. **Create Conda Environment**  
-   Use the provided `requirements.txt` file to set up your environment.  
-   Run the following commands in your terminal or Anaconda Prompt:
+# Step 2: Navigate to the project directory
+cd /path/to/your/project/directory  # Replace this with your project directory
 
-   2.1. Add `conda-forge` channel:  
-   ```bash
-   conda config --append channels conda-forge
+# Step 2.1: Add conda-forge channel
+conda config --append channels conda-forge
 
+# Step 2.2: Create the conda environment using the provided requirements.txt
+conda create --name case_study_env --file requirements.txt
 
+# Step 2.3: Activate the conda environment
+conda activate case_study_env
+
+# Step 2.4: Install additional Python packages
+pip install -r requirements_pypi.txt
+
+# Step 3: Run the project in your favorite IDE or Jupyter Notebook
+# Activate the environment
+conda activate case_study_env
+
+# Launch Jupyter Notebook
+jupyter notebook
+
+# You are ready to explore the project.
+
+# How to run the project remotely
+# Copy the URL of this GitHub project and replace 'github.com' with 'github.dev'
+# Example: https://github.com/username/repository → https://github.dev/username/repository
