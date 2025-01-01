@@ -68,4 +68,36 @@ Join us as we explore and build machine learning models to make smarter decision
 
 ## Project Structure
 
-├── README.md ├── data │ ├── input │ ├── models_output │ └── output ├── models ├── notebooks │ ├── 01. project-description-&-data-preparation-&-EDA.ipynb │ ├── 02. feature-engineering-&-feature-selection.ipynb │ ├── 03. naive-model.ipynb │ ├── 04. lightgbm-model.ipynb │ ├── 05. catboost-model.ipynb │ ├── 06. xgboost-model.ipynb │ ├── 07. final-model-comparison-and-summary.ipynb │ └── 08. random-forest-baseline-model.ipynb ├── requirements.txt └── requirements_pypi.txt
+├── README.md
+├── data
+│   ├── input
+│   ├── models_output
+│   └── output
+├── models
+├── notebooks
+│   ├── 01. project-description-&-data-preparation-&-EDA.ipynb
+│   ├── 02. feature-engineering-&-feature-selection.ipynb
+│   ├── 03. gradient-boosting-model.ipynb
+│   ├── 04. lightgbm-model.ipynb
+│   ├── 05. catboost-model.ipynb
+│   ├── 06. xgboost-model.ipynb
+│   ├── 07. final-model-comparison-and-summary.ipynb
+└── README.md
+
+---
+
+## How to Run the Project Locally
+
+1. **Install Conda Environment Management System**  
+   If you don’t already have Conda installed, you can follow the instructions here:  
+   [Install Conda](https://conda.io/projects/conda/en/latest/user-guide/install/index.html)
+
+2. **Create Conda Environment**  
+   Use the provided `requirements.txt` file to set up your environment.  
+   Run the following commands in your terminal or Anaconda Prompt:
+
+   2.1. Add `conda-forge` channel:  
+   ```bash
+   conda config --append channels conda-forge
+
+
