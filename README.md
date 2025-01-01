@@ -112,9 +112,9 @@ Join us as we explore and build machine learning models to make smarter decision
    
    2.1. `conda config --append channels conda-forge`
 
-   2.2. `conda create --name case_study_env --file requirements.txt`
+   2.2. `conda create --name xxxx_env --file requirements.txt`
 
-   2.3. `conda activate case_study_env`
+   2.3. `conda activate xxxx_env`
 
    2.4. `pip install -r requirements_pypi.txt`
 
