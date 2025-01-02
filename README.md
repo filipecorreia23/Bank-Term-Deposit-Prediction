@@ -53,7 +53,7 @@ The dataset includes 45,211 instances and 16 features, divided into three catego
 ## Main Challenges
 
 1. **Class Imbalance**: most clients say "no," making this a challenging classification problem.
-2. **Complex Feature Interactions**: numerical and categorical features interact in non-linear ways, requiring robust algorithms.
+2. **Feature Interactions**: numerical and categorical features interact in non-linear ways, requiring robust algorithms.
 3. **Strong Predictive Features**: features like duration can dominate predictions and introduce bias.
 
 ## Why It Matters
