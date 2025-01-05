@@ -80,8 +80,8 @@ Join us as we explore and build machine learning models to make smarter decision
 │   ├── 02. feature-engineering-&-feature-selection.ipynb
 │   ├── 03. baseline-GBM.ipynb
 │   ├── 04. xgboost-model.ipynb
-│   ├── 05. lightgbm-model.ipynb
-│   ├── 06. catboost-model.ipynb
+│   ├── 05. catboost-model.ipynb
+│   ├── 06. lightgbm-model.ipynb
 │   ├── 07. final-model-comparison-and-summary.ipynb
 ├── requirements.txt
 └── requirements_pypi.txt
