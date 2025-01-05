@@ -1,0 +1,13 @@
+﻿Model;Class;Precision;Recall;F1-Score;Support;Accuracy;Macro Avg Precision;Macro Avg Recall;Macro Avg F1-Score;Weighted Avg Precision;Weighted Avg Recall;Weighted Avg F1-Score;AUC Score
+GBM;No;0.92;0.97;0.95;7635;;;;;;;;
+GBM;Yes;0.63;0.40;0.49;1004;;;;;;;;
+GBM;General;;;;;0.89;0.78;0.68;0.72;0.89;0.90;0.89;0.91
+XGBoost;No;0.96;0.90;0.93;7635;;;;;;;;
+XGBoost;Yes;0.49;0.73;0.58;1004;;;;;;;;
+XGBoost;General;;;;;0.88;0.72;0.81;0.76;0.91;0.88;0.89;0.91
+LightGBM;No;0.97;0.91;0.94;7635;;;;;;;;
+LightGBM;Yes;0.52;0.75;0.61;1004;;;;;;;;
+LightGBM;General;;;;;0.89;0.74;0.83;0.77;0.91;0.89;0.90;0.93
+CatBoost;No;0.97;0.90;0.93;7635;;;;;;;;
+CatBoost;Yes;0.51;0.82;0.63;1004;;;;;;;;
+CatBoost;General;;;;;0.89;0.74;0.86;0.78;0.92;0.89;0.90;0.93
