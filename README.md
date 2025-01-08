@@ -77,7 +77,7 @@ Join us as we explore and build machine learning models to make smarter decision
 ├── models
 ├── notebooks
 │   ├── 01. project-description-&-data-preparation-&-EDA.ipynb
-│   ├── 02. feature-engineering-&-feature-selection.ipynb
+│   ├── 02. feature-engineering.ipynb
 │   ├── 03. baseline-GBM.ipynb
 │   ├── 04. xgboost-model.ipynb
 │   ├── 05. catboost-model.ipynb
