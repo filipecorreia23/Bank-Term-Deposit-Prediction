@@ -70,11 +70,8 @@ Join us as we explore and build machine learning models to make smarter decision
 
 ```bash
 ├── README.md
-├── data
-│   ├── input
-│   ├── models_output
-│   └── output
-├── models
+├── input
+├── output
 ├── notebooks
 │   ├── 01. project-description-&-data-preparation-&-EDA.ipynb
 │   ├── 02. feature-engineering.ipynb
@@ -83,6 +80,14 @@ Join us as we explore and build machine learning models to make smarter decision
 │   ├── 05. catboost-model.ipynb
 │   ├── 06. lightgbm-model.ipynb
 │   ├── 07. final-model-comparison-and-summary.ipynb
+├── scripts
+│   ├── 01. project-description-&-data-preparation-&-EDA.py
+│   ├── 02. feature-engineering.py
+│   ├── 03. baseline-GBM.py
+│   ├── 04. xgboost-model.py
+│   ├── 05. catboost-model.py
+│   ├── 06. lightgbm-model.py
+│   ├── 07. final-model-comparison-and-summary.py
 ├── requirements.txt
 └── requirements_pypi.txt
 ```
