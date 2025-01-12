@@ -132,8 +132,8 @@ Join us as we explore and build machine learning models to make smarter decision
   2. **Open in a Web-Based IDE**
      Replace github.com in the URL with github.dev to open the project in GitHub's web-based IDE.
 
-### **Notes**
+  # **Notes**
 
-- Replace `xxxx_env` with the name of your environment (e.g., `fifa_env` or `my_project_env`).
-- Ensure Conda is correctly installed and accessible in your system’s PATH.
-- The `requirements.txt` file should include Conda-specific dependencies, while `requirements_pypi.txt` should handle pip-only dependencies.
+  - Replace `xxxx_env` with the name of your environment (e.g., `catboost_env` or `my_project_env`).
+  - Ensure Conda is correctly installed and accessible in your system’s PATH.
+  - The `requirements.txt` file should include Conda-specific dependencies, while `requirements_pypi.txt` should handle pip-only dependencies.
