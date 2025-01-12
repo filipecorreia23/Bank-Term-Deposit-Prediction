@@ -129,7 +129,7 @@ Join us as we explore and build machine learning models to make smarter decision
 
   3.2 `jupyter notebook`
 
-  # How to run the project remotely
+  ## How to run the project remotely
 
   1. **Clone the Repository**
      Copy the URL of this GitHub project.
@@ -137,7 +137,7 @@ Join us as we explore and build machine learning models to make smarter decision
   2. **Open in a Web-Based IDE**
      Replace github.com in the URL with github.dev to open the project in GitHub's web-based IDE.
 
-  # **Notes**
+  ## **Notes**
 
   - Replace `xxxx_env` with the name of your environment (e.g., `catboost_env` or `my_project_env`).
   - Ensure Conda is correctly installed and accessible in your system’s PATH.
